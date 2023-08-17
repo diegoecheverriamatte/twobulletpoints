@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Twobulletspoints</title>
+    <style>
+        body {
+            background-color: #383838;
+            color: white;
+            font-family: Calibri, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgba(255, 215, 0, 0.8);
+        }
+
+        h4 {
+            text-align: center;
+            color: rgba(255, 215, 0, 0.8);
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        hr {
+            border: 1px solid rgba(255, 215, 0, 0.8);
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+
+        .column {
+            display: inline-block;
+            width: 45%;
+            vertical-align: top;
+        }
+
+        .column:first-child {
+            margin-right: 5%;
+        }
+
+        p {
+            margin-left: 150px;
+        }
+
+        li:not(:first-child) {
+            margin-left: 150px;
+        }
+
+        img {
+            margin-left: 200px;
+        }
+
+        .flaws {
+            margin-left: 150px;
+            background-color: #545454;
+            border: 1px solid #383838;
+        }
+
+        .resilience {
+            background-color: #383838;
+            border: 1px solid #383838;
+            margin-left: 20px;
+        }
+
+        .effects {
+            background-color: #383838;
+            border: 1px solid #383838;
+            margin-left: 150px;
+        }
+
+        .importance {
+            margin-left: 150px;
+            background-color: #545454;
+            border: 1px solid #383838;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to</h1>
+    <h1>Two Bullets Points</h1>
+    <h4>A friend once told me: "each book should teach you one or two things, that's enough." Taking my friend's words,
+        I created this web page to capture those two insights and takeaways that I've gained from reading.</h4>
+    <h4>Thank you for visiting my website, and happy reading!</h4>
+    <hr>
+<!-- aca parte un pedazo -->
+    <a href='https://www.amazon.com/Cant-Hurt-Me-Master-Your/dp/1544512279/ref=sr_1_1'>
+         <img src="https://m.media-amazon.com/images/I/41F4Pg6SumL._SX331_BO1,204,203,200_.jpg" alt="My Image" style="width: 5%;">
+    </a>
+    <p><em>Can't Hurt Me: Master Your Mind and Defy the Odds - David Goggins</em></p>
+    <div class="column">
+        <fieldset class="flaws">
+            <li>99% of people choose to stay in their comfort zone; be the 1%. Over there, you differentiate yourself, giving more than 100%, for which the key is to be present and focused without procrastinating. No excuses. (40% rule)</li>
+        </fieldset>
+    </div>
+    <div class="column">
+        <fieldset class="resilience">
+            <li>The universe is mental. Train your mind to push yourself and be efficient with your time. Ask yourself how you are spending your time. (mirror affirmations).</li>
+        </fieldset>
+    </div>
+    <hr>
+<!-- aca termina un pedazo -->
+    <a href='https://www.amazon.com/Sun-Does-Shine-Freedom-Selection/dp/1250309476/'>
+         <img src="https://m.media-amazon.com/images/I/51UBOXT2+tL._SY344_BO1,204,203,200_.jpg" alt="My Image" style="width: 5%;">
+    </a>
+    <p><em>The Sun Does Shine: How I found life and Freedom on Death Row - Anthony Ray Hinton</em></p>
+    <div class="column">
+        <fieldset class="flaws">
+            <li>Can you imagine spending 28 years in prison for being innocent? The book sheds light on issues such as racial bias, inadequate legal representation, and misconduct by law enforcement officials.</li>
+        </fieldset>
+    </div>
+    <div class="column">
+        <fieldset class="resilience">
+            <li>Resilience of the human spirit: Despite the injustice he faced, Hinton remained hopeful and resilient throughout his ordeal. He found solace in his faith and in the support of his family and friends, being able to find meaning and purpose in his life.</li>
+        </fieldset>
+    </div>
+    <hr>
+    <a href='https://www.amazon.com/Cometierra-Dolores-Reyes/dp/849489935X/'>
+        <img src="https://m.media-amazon.com/images/I/51EQAPRMWhL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg" target="_blank" alt="Cometierra book cover" style="width: 5%;">
+    </a>
+    <p><em>Cometierra - Dolores Reyes</em></p>
+    <div class="column">
+        <fieldset class="effects">
+            <li>The effects of poverty on individuals and communities: The novel portrays the struggles of people living
+                in poverty in Argentina, particularly in the outskirts of Buenos Aires. It highlights the harsh living
+                conditions, lack of access to basic necessities, and limited opportunities for people living in these
+                areas. The book also shows how poverty affects the mental health of individuals, leading to substance
+                abuse, crime, and other destructive behaviors.</li>
+        </fieldset>
+    </div>
+    <div class="column">
+        <fieldset class="importance">
+            <li>The importance of community and human connection: Despite the difficult circumstances in which the
+                characters of "Cometierra" find themselves, they are able to form meaningful relationships with each
+                other. The book shows how these connections can help people cope with their struggles and find hope in
+                seemingly hopeless situations. It also demonstrates how people can come together to support each other
+                and fight against injustices in their community.</li>
+        </fieldset>
+    </div>
+    <hr>
+    <p>by Diego Echeverria Matte
+        <p />
+        <a href="https://www.goodreads.com/user/show/50653549-diego-echeverria">
+            <img src="https://d.gr-assets.com/misc/1454549143-1454549143_goodreads_misc.png" target="_blank" alt="goodreads" style="width: 2%; margin-left: 10px;">
+        </a>
+</body>
+
+</html>
